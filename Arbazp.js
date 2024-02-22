@@ -1,7 +1,6 @@
 setTimeout(()=>{
-    alert("Welcome to My Protfolio.")
+    alert("Welcome to My Protfolio")
 },2000)
-
 document.addEventListener('DOMContentLoaded', function () {
     const menuBtn = document.getElementById('MenuBtn');
     const navList = document.querySelector('ul');
@@ -33,3 +32,4 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
 });
+
