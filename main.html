@@ -1,0 +1,1237 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: Black;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+.logo{
+    font-size: 25px;
+    text-align: left;
+    width: 45%;
+    color: rgb(255, 255, 255);
+    margin-left: 15px;
+}
+.logo i{
+    color: black;
+}
+.logo i:hover{
+    background-color: black;
+    color: white;
+}
+ul{
+    text-align: right;
+    width: 55%;
+}
+li{
+    display: inline;
+    padding: 5px;
+}
+li a{
+    align-items: center;
+}
+.fa-code{
+    font-size: 14px;
+}
+a{
+    text-decoration: none;
+    list-style: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+a:hover{
+    transition: 0.1s;
+    background-color: white;
+    color: black;
+    padding: 3px;
+    border: 10px;
+}
+
+.main{
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(24, 23, 24);
+}
+.container1{
+    width: 60%;
+    margin-top:150px;
+    text-align:justify;
+    margin-right: 10px;
+    order: 1;
+}
+
+.headline {
+    margin-left: 30px;
+}
+.headline  h1{
+    font-size: 48px;
+    color: rgb(255, 0, 251);
+    font-weight: bold;
+}
+@keyframes slideIn {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.animate-text {
+    animation: slideIn 1.5s ease-out;
+}
+.headline h4{
+    margin-top: 8px;
+    font-size: 25px;
+    color: white;
+}
+
+.social-media{
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    cursor: pointer;
+}
+.social{
+    color: black;
+    height: fit-content;
+    width:none;
+    border-radius: 50%;
+}
+i{
+    background-color:rgb(255, 255, 255);
+    padding: 12px;
+    border-radius: 50%;
+    font-size: 25px;
+    margin: 15px;
+}
+i:hover{
+    transition: 0.1s;
+    background-color: Black;
+    color: rgb(255, 0, 221);
+    width: fit-content;
+    height: fit-content;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    /* text-align: center; */
+}
+#PDF{
+    color: blue;
+    font-size: 28px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 10px;
+    cursor: pointer;
+    background-color: white;
+    text-align: center;
+    padding-left: 8px;
+}
+#PDF:hover{
+    transition: 0.1s;
+    background-color: rgb(255, 0, 255);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.container2{
+    width: 40%;
+    color: white;
+    order: 2;
+}
+
+.Photo{
+    display: flex;
+    justify-content: center;
+}
+.img1{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: 2px solid rgb(230, 0, 255);
+}
+
+.main1{
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main1container1{
+    width: 40%;
+    justify-content: center;
+}
+#Img2{
+    margin-left: 100px;
+    margin-top: 10px;
+    width: 270px;
+    height: 400px;
+    border-radius: 15px;
+}
+.main1container2{
+    margin-left: 100px;
+    margin-right: 100px;
+    color: black;
+}
+.About{
+    font-size: 44px;
+    background-color: greenyellow;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 10px; 
+    height: fit-content;
+    margin-top: 15px;
+}
+.AboutN{
+    font-size: 25px;
+    margin-top: 15px;
+}
+.Aboutp{
+    margin-top: 10px;
+    font-size: 25px;
+    text-align: justify;
+}
+
+.main2{
+    background-color: rgb(24, 23, 24);
+    color: black;
+    width: 100%;
+    padding: 5%;
+}
+.Skillc{
+    color: rgb(0, 0, 0);
+    font-size: 44px;
+    margin-left: 20px;
+    margin-bottom: 25px;
+    background-color: greenyellow;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 10px;   
+}
+.skillcontainer{  
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+}
+.skill{
+    font-weight: bold;
+    background-color: white;
+    color: blue;
+    padding: 6px;
+    margin-left: 5px;
+    margin-top: 15px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.skill:hover{
+    transition: 0.1s;
+    background-color: rgb(255, 0, 225);
+    color: white;
+    font-weight: bold;
+}
+
+.main3{
+    background-color: white;
+    display: flex; 
+    flex-wrap: wrap;
+}
+.Projecthead{
+    color: rgb(0, 0, 0);
+    font-size: 44px;
+    background-color: greenyellow;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 10px; 
+    height: fit-content;
+    margin-top: 15px;
+    margin-left: 5%;
+}
+.projectcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 25px;
+    justify-content: center;
+}
+.box1{
+    margin-top: 100px;
+    background-color: black;
+    color: white;
+    margin-left: 20px;
+    width: 450px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.box1:hover{
+    transition: 0.1s;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: 2px solid black;
+}
+.box1 h1{
+    margin-bottom: 30px;
+    margin-top: 10px;
+    font-size: 28px;
+    margin-left: 5px;
+}
+.box1 h1:hover{
+    background-color: yellowgreen;
+    width: fit-content;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 0.1s;
+}
+.desct{
+    margin-top: 20px;
+}
+.Desc{
+    font-size: 18px;
+    text-align: justify;
+    margin-top: 10px;
+}
+
+.PImg{
+    width: 445px;
+    height: 300px;
+}
+.desct{
+    margin-top: 15px;
+}
+.main4{
+    background-color: rgb(24, 23, 24);
+}
+.badgestitle{
+    margin-top: 20px;
+    padding: 10px;
+}
+.badgest{
+    color: rgb(0, 0, 0);
+    font-size: 44px;
+    background-color: greenyellow;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 10px; 
+    margin-left: 4%;
+}
+.badges{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    padding-bottom: 20px;
+}
+.badge1{
+    margin: 3px;   
+    cursor: pointer;
+}
+.badge1 img:hover{
+    transition: 0.1s;
+    background-color: rgb(255, 0, 251);
+    padding: 10px;
+}
+.badge1 img{
+    background-size: cover; 
+    width: 200px;
+    margin-left: 35px;
+    background-color: white;
+    border-radius: 100%;
+}
+
+.ibmc{
+    color: rgb(0, 0, 0);
+    background-color: greenyellow;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 15px;
+    height: fit-content;
+    width: fit-content;
+    padding: 10px;
+    margin-left: 5%;
+}
+.certi img{
+    margin-top: 15px;
+    justify-content: center;
+    width: 500px;
+    margin-left: 15px;
+    border:2px solid black;
+    flex-wrap: wrap;
+}
+.container4{
+    display: flex;
+    margin-left: 5%;
+}
+.certidivided{
+    display: flex;
+    margin-top: 5px;
+    flex-wrap: wrap;
+    margin-left: 5px;
+}
+.img1c img{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    padding: 10px;
+    flex-wrap: wrap;
+    margin-left: 20px;
+}
+.main5{
+    background-color: rgb(24, 23, 24);
+    color: white;
+    padding: 50px;
+}
+.main5 h1{
+    color: rgb(0, 0, 0);
+    background-color: greenyellow;
+    border-radius: 10px;
+    height: fit-content;
+    width: fit-content;
+    padding: 10px;
+    margin-left: 2%;
+    margin-bottom: 20px;
+}
+.edu{
+    display: flex;
+    flex-wrap: wrap;
+}
+.btech{
+    background-color: rgba(0, 255, 251, 0.589);
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 8px;
+    margin-top: 15px;
+}
+.btech:hover{
+    transition: 0.3s;
+    cursor: pointer;
+    background-color:rgb(242, 0, 255);
+    color: white;
+}
+.btech h2{
+    color:black;
+    font-size: 22px;
+    font-weight: bold;
+}
+.btech h3{
+    margin-top: 10px;
+}
+.main6{
+    background-color: rgb(255, 255, 255);
+}
+.main7{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main6 h1{
+    color: rgb(0, 0, 0);
+    background-color: greenyellow;
+    border-radius: 10px;
+    padding: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+.contact{
+    flex-wrap: wrap;
+    padding: 20px;
+    width: 800px;
+    border: 2px solid black;
+    margin-bottom: 20px;
+}
+.email{
+    width: 100%;
+}
+.email input{
+    padding: 20px;
+    width: 100%;
+    margin-top: 10px;
+}
+.Description #message{
+    margin-top: 10px;
+}
+.contact button{
+    margin-top: 15px;
+    background-color: yellowgreen;
+    border: none;
+    font-size: 28px;
+    border-radius: 10px;
+    padding: 5px;
+    font-weight: bold;
+}
+.contact button:hover{
+    transition: 0.1s;
+    background-color: rgb(255, 0, 255);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    color: white;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    background-color: #333;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.logo {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.menu {
+    display: none;
+    cursor: pointer;
+    color: white;
+    font-size: 24px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+ul li {
+    margin-right: 20px;
+}
+
+ul a {
+    text-decoration: none;
+    color: white;
+}
+
+ul.show {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 130px;
+    left: 0;
+    background-color: #333;
+    width: 100%;
+    text-align: center;
+}
+
+ul.show li {
+    margin-top: 12px;
+}
+
+@media screen and (max-width: 710px) {
+    ul {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background-color: #333;
+        width: 100%;
+        text-align: center;
+    }
+
+    ul.show {
+        display: flex;
+    }
+
+    .menu {
+        display: block;
+    }
+    #PDF{
+        margin-top: 10px;
+    }
+    .main{
+        width: 100%;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(24, 23, 24);
+    }
+    .container1{
+        width: 60%;
+        text-align:justify;
+        margin-right: 10px;
+        order: 1;
+        margin-top: 30px;
+    }
+    
+    .headline {
+        margin-left: 30px;
+    }
+    .headline  h1{
+        font-size: 48px;
+        color: rgb(255, 0, 251);
+        font-weight: bold;
+    }
+    .headline h4{
+        margin-top: 8px;
+        font-size: 25px;
+        color: white;
+    }
+    
+    .social-media{
+        margin-top: 60px;
+        display: flex;
+        justify-content: center;
+        cursor: pointer;
+    }
+    .social{
+        color: black;
+        height: fit-content;
+        width:none;
+        border-radius: 50%;
+    }
+    i{
+        background-color:rgb(255, 255, 255);
+        padding: 12px;
+        border-radius: 50%;
+        font-size: 25px;
+        margin: 15px;
+    }
+    i:hover{
+        transition: 0.1s;
+        background-color: Black;
+        color: rgb(255, 0, 221);
+        width: fit-content;
+        height: fit-content;
+    }
+    .container2{
+        width: 40%;
+        color: white;
+        order: 2;
+    }
+    
+    .Photo{
+        display: flex;
+        justify-content: center;
+    }
+    .img1{
+        width: 400px;
+        height: 300px;
+        border-radius: 50%;
+        flex-direction: column;
+        flex-wrap: wrap;
+        border: 2px solid rgb(230, 0, 255);
+    }
+
+}
+
+
+@media (max-width:997px){
+    .main{
+        flex-direction: column;
+        width: 100%;
+    }
+    .container1{
+        width: 100%;
+        order: 2;
+    }
+    .container2{
+        flex-direction: column;
+        width: 100%;
+        order: 1;
+    }
+    .Photo{
+        display: flex;
+        justify-content: center;
+    }
+    .img1{
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        flex-direction: column;
+        flex-wrap: wrap;
+        border: 2px solid rgb(230, 0, 255);
+    }
+    .AboutN{
+        text-align: left;
+    }
+    .main1{
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .main1container2{
+        text-align: center;
+        margin-left: 10px;
+        margin-right: 10px;
+
+    }
+    .contact{
+        flex-wrap: wrap;
+        padding: 20px;
+        width: 600px;
+        border: 2px solid black;
+        margin-bottom: 20px;
+    }
+    .box1{
+        width: 400px;
+    }
+    .desct , .Desc{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .PImg{
+        width: 398px;
+    }
+    .container1{
+        margin-bottom: 150px;
+    }
+    .headline h1,h4{
+        text-align: center;
+    }
+    .img1{
+        margin-top: 20px;
+    }
+}
+
+@media (max-width:700px) {
+    .main1container1{
+        margin-right: 300px;
+    }
+    #Img2{
+       margin-top: 10px;
+    }
+}
+@media (max-width:501px){
+    .box1{
+        margin-top: 100px;
+        background-color: black;
+        color: white;
+        margin-left: 20px;
+        width: 300px;
+    }
+    
+    .PImg{
+        width: 300px;
+        height: 200px;
+    }
+    .contact{
+        flex-wrap: wrap;
+        padding: 20px;
+        width: 100%;
+        border: 2px solid black;
+        margin-bottom: 20px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+}
+@media (max-width:362px){
+    .box1{
+        margin-top: 100px;
+        background-color: black;
+        color: white;
+        margin-left: 20px;
+        width: 200px;
+    }
+    
+    .PImg{
+        width: 200px;
+        height: 100px;
+    }
+}
+@media (max-width:320px){
+    .box1{
+        margin-top: 100px;
+        background-color: black;
+        color: white;
+        margin-left: 20px;
+        width: 150px;
+    }
+    
+    .PImg{
+        width: 150px;
+        height: 100px;
+    }
+} 
+@media (max-width:886px){
+    .certi img{
+        margin-top: 15px;
+        justify-content: center;
+        width: 500px;
+        margin-left: 15px;
+        border:2px solid black;
+        flex-wrap: wrap;
+    }
+    .container4{
+        display: flex;
+        flex-wrap: wrap;
+    }
+} 
+@media (max-width:533px){
+    .certi img{
+        margin-top: 15px;
+        justify-content: center;
+        width: 400px;
+        margin-left: 15px;
+        border:2px solid black;
+        flex-wrap: wrap;
+    }
+} 
+@media (max-width:422px){
+    .certi img{
+        margin-top: 15px;
+        justify-content: center;
+        width: 300px;
+        margin-left: 15px;
+        border:2px solid black;
+        flex-wrap: wrap;
+    }
+    .ibmc{
+        color: rgb(0, 0, 0);
+        background-color: greenyellow;
+        border-radius: 10px;
+        padding: 10px;
+        margin-top: 15px;
+        padding: 10px;
+        margin-left: 5%;
+        width: fit-content;
+    }
+    .box1{
+        margin-right: 50px;
+    }
+    .badge1{
+        margin-left: 20px;
+    }
+    .btech{
+        margin-right: 40px;
+    }
+} 
+@media (max-width:339px){
+    .certi img{
+        margin-top: 15px;
+        justify-content: center;
+        width: 200px;
+        margin-left: 15px;
+        border:2px solid black;
+        flex-wrap: wrap;
+    }
+    .img1c img{
+        display: flex;
+        flex-direction: column;
+        width: 150px;
+        padding: 10px;
+        flex-wrap: wrap;
+    }
+    .btech{
+        background-color: rgba(0, 255, 251, 0.589);
+        margin-left: 1px;
+        border-radius: 10px;
+        padding: 15px;
+        margin-top: 15px;
+    }
+    .btech:hover{
+        transition: 0.3s;
+        cursor: pointer;
+        background-color:rgb(242, 0, 255);
+        color: white;
+    }
+    .btech h2{
+        color:black;
+        font-size: 22px;
+        font-weight: bold;
+    }
+    .btech h3{
+        margin-top: 10px;
+    }
+} 
+.menu{
+    justify-content: center;
+}
+.menu i:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(0, 183, 255);
+}
+.menu i{
+    color: black;
+
+}
+.menuBtn{
+    width: 100px;
+    background-color: white;
+    color: white;
+}
+
+@media (max-width:1188px){
+    nav{
+        /* background-color: rgb(0, 0, 0); */
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .logo{
+        font-size: 25px;
+        text-align: center;
+        width: 50%;
+        color: rgb(255, 255, 255);
+        margin-left: 15px;
+    }
+    .logo i{
+        color: black;
+    }
+    ul{
+        text-align: right;
+        width: 100%;
+        margin-top: 20px;
+        margin-right: 20px;
+        margin-bottom: 10px;
+    }
+    li{
+        padding: 5px;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+    .menu{
+        text-align: center;
+        margin-right: 15px;
+    }
+}
+
+@media (max-width:317px) {
+    .badge1 img{
+        margin-top: 15px;
+        justify-content: center;
+        width: 150px;
+        margin-left: 15px;
+        border:2px solid black;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width:440px){
+    .badge1{
+        margin-left: 35px;
+    }
+    .logo{
+        font-size: 25px;
+        text-align: center;
+        width: 60%;
+        color: rgb(255, 255, 255);
+        margin-left: 15px;
+    }
+    .menuBtn{
+        width: 100px;
+        background-color: white;
+        color: white;
+        margin-top: 15px;
+    } 
+}
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel=stylesheet href="03.css">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+        <title>Portfolio</title>
+    </head>
+    <body>
+        <nav>
+            <div class="logo">Portfolio <i class="fa-solid fa-code"></i></div>
+            <div class="menu" id="MenuBtn"><i
+                    class="fa-solid fa-bars"></i></div>
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#skill">Skill</a></li>
+                <li><a href="#project">Project</a></li>
+                <li><a href="#badges">Badges</a></li>
+                <li><a href="#certificate">Certified</a></li>
+                <li><a href="#Education">Education</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="main" id="Home">
+            <div class="container1">
+                <div class="headline">
+                    <h1 class="animate-text">Hii, I'm Arbaz Khan</h1>
+                    <h4>Passionate Front-End Developer & Web
+                        Developer Transforming Ideas into Engaging Digital
+                        Experiences. </h4>
+                </div>
+                <div class="social-media">
+                    <a class="social" href="mailto:khanarbaz460847@gmail.com"><i
+                            class="fa-solid fa-envelope"></i></a>
+                    <a class="social" href="tel:+917410744607"><i
+                            class="fa-solid fa-phone"></i></a>
+                    <a class="social"
+                        href="https://www.linkedin.com/in/arbaz-khan-729a891bb/"><i
+                            class="fa-brands fa-linkedin icon1"></i></a>
+                    <a class="social" href="https://github.com/Arbazkhan08"><i
+                            class="fa-brands fa-github icon1"></i></a>
+                    <a class="social"
+                        href="https://www.credly.com/earner/earned"><i
+                            class="fa-solid fa-ribbon icon1"></i></i></a>
+                <a class="social"
+                    href="https://www.instagram.com/its_arbaz_khan08/"><i
+                        class="fa-brands fa-instagram icon1"></i>
+                </div>
+                <div class="btn">
+                    <a id="PDF"
+                        href="https://drive.google.com/file/d/1hU3o-YSNWjMu1D_B_1MrWXAwc-9rTJvD/view?usp=drive_link"
+                        download="Arbaz_Resume.pdf">
+                        Download CV<i class="fas fa-download"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="container2">
+                <div class="Photo">
+                    <img class="img1" src="Passportpic.jpeg" alt>
+                </div>
+            </div>
+        </div>
+        <div class="main1" id="About">
+            <div class="main1container1">
+                <img id="Img2" src="2nd img.jpeg" alt>
+            </div>
+            <div class="main1container2">
+                <h1 class="About">About Me</h1>
+                <h3 class="AboutN">Arbaz khan</h3>
+                <p class="Aboutp">a recent graduate in Computer Science and
+                    Engineering from Maharashtra Institute of Technology,
+                    Aurangabad. In addition to my degree, I've undertaken
+                    courses in web development, and front-end development.
+                    My
+                    skill set encompasses HTML, CSS, and
+                    Javascript,Bootstrap,
+                    Figma, Github, Basic ReactJs along with proficiency in
+                    front-end development.</p>
+            </div>
+
+        </div>
+        <div class="main2" id="skill">
+            <h1 class="Skillc">Skills</h1>
+            <div class="skillcontainer">
+                <div class="html">
+                    <h1 class="skill">HTML</h1>
+                </div>
+                <div class="css">
+                    <h1 class="skill">CSS</h1>
+                </div>
+                <div class="js">
+                    <h1 class="skill">JavaScript</h1>
+                </div>
+                <div class="react">
+                    <h1 class="skill">Basic React</h1>
+                </div>
+                <div class="boot">
+                    <h1 class="skill">Bootstrap</h1>
+                </div>
+                <div class="figma">
+                    <h1 class="skill">Figma</h1>
+                </div>
+                <div class="uxui">
+                    <h1 class="skill">UX/UI</h1>
+                </div>
+                <div class="github">
+                    <h1 class="skill">Github</h1>
+                </div>
+                <div class="WordPress">
+                    <h1 class="skill">WordPress</h1>
+                </div>
+                <div class="SEO">
+                    <h1 class="skill">SEO</h1>
+                </div>
+            </div>
+        </div>
+        <div class="main3" id="project">
+            <h1 class="Projecthead">Project</h1>
+            <div class="projectcontainer">
+                <div class="project1 box1">
+                    <h1>Amazon Clone</h1>
+                    <img class="PImg" src="Amazonimg.JPG" alt>
+                    <h2 class="desct">Description</h2>
+                    <p class="Desc">Developed an responsive Amazon clone
+                        using
+                        HTML and CSS,
+                        showcasing my proficiency in front-end
+                        development.</p>
+                </div>
+                <div class="project2 box1">
+                    <h1>Netflix Clone</h1>
+                    <img class="PImg" src="netfliximg.JPG" alt>
+                    <h2 class="desct">Description</h2>
+                    <p class="Desc">Developed an responsive Netflix clone
+                        using
+                        HTML, CSS and JS.</p>
+                </div>
+                <div class="Project3 box1">
+                    <h1>Hospital Management System</h1>
+                    <img class="PImg" src="Hospialimg.JPG" alt>
+                    <h2 class="desct">Description</h2>
+                    <p class="Desc">Developed a web application for hospital
+                        management with features like login, register,
+                        patient
+                        details, appointments,and<br>
+                        health tips..</p>
+                </div>
+                <div class="project4 box1">
+                    <h1>Todo-List App</h1>
+                    <img class="PImg" src="todoimg.JPG" alt>
+                    <h2 class="desct">Description</h2>
+                    <p class="Desc">Developed an responsive Amazon clone
+                        using
+                        HTML and CSS,
+                        showcasing my proficiency in front-end
+                        development.</p>
+                </div>
+                <div class="project4 box1">
+                    <h1>Notes App</h1>
+                    <img class="PImg" src="Noteimg.JPG" alt>
+                    <h2 class="desct">Description</h2>
+                    <p class="Desc">Developed an responsive Amazon clone
+                        using
+                        HTML and CSS,
+                        showcasing my proficiency in front-end
+                        development.</p>
+                </div>
+                <div class="project5 box1">
+                    <h1>Blog Website</h1>
+                    <img class="PImg" src="blogimg.JPG" alt>
+                    <h2 class="desct">Description</h2>
+                    <p class="Desc">Develop responsive website using
+                        bootstrap.</p>
+                </div>
+            </div>
+        </div>
+        <div class="main4" id="badges">
+            <div class="badgestitle">
+                <h1 class="badgest">My Badges</h1>
+            </div>
+            <div class="badges">
+                <div class="badge1">
+                    <img
+                        src="web-development-with-html-css-javascript-essentials.png"
+                        alt>
+                </div>
+                <div class="badge1">
+                    <img
+                        src="intermediate-front-end-web-development (1).png"
+                        alt>
+                </div>
+                <div class="badge1">
+                    <img
+                        src="developing-cloud-native-applications.1.png"
+                        alt>
+                </div>
+                <div class="badge1">
+                    <img
+                        src="designing-user-interfaces-and-experiences-ui-ux.png"
+                        alt>
+                </div>
+                <div class="badge1">
+                    <img src="front-end-development-with-react.png"
+                        alt>
+                </div>
+                <div class="badge1">
+                    <img
+                        src="google-project-management-certificate.2.png"
+                        alt>
+                </div>
+            </div>
+        </div>
+        <div class="certificate" id="certificate">
+            <div class="ibmc">
+                <h1 class="certification">My Professional Certication</h1>
+            </div>
+            <div class="container4">
+                <div class="certi">
+                    <img src="Certificate.JPG" alt>
+                </div>
+                <div class="certidivided">
+                    <div class="img1c">
+                        <img src="cert5.JPG" alt>
+                    </div>
+                    <div class="img1c">
+                        <img src="cert4.JPG" alt>
+                    </div>
+                    <div class="img1c">
+                        <img src="cert7.JPG" alt>
+                    </div>
+                    <div class="img1c">
+                        <img src="cert3.JPG" alt>
+                    </div>
+                    <div class="img1c">
+                        <img src="cer1ui.JPG" alt>
+                    </div>
+                    <div class="img1c">
+                        <img src="cert6.JPG" alt>
+                    </div>
+                    <div class="img1c">
+                        <img src="cert8.JPG" alt>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main5" id="Education">
+            <h1>Education</h1>
+            <div class="edu">
+                <div class="btech">
+                    <h2>B.Tech In Computer Science and Engineering</h2>
+                    <h3>Maharashtra Institute of Technology, Aurangabad.</h3>
+                    <h3>| Graduated in 2023.</h3>
+                    <h3>| B.Tech (CSE): CGPA-9.24</h3>
+                </div>
+                <div class="btech">
+                    <h2>Higher Secondary Certificate (HSC)</h2>
+                    <h3>State Board | Year of passing 2018.</h3>
+                    <h3>Percentage: 74.77%</h3>
+                </div>
+                <div class="btech">
+                    <h2>Secondary School Certificate (SSC)</h2>
+                    <h3>State Board | Year of Passing 2016</h3>
+                    <h3>Percentage: 84.20%</h3>
+                </div>
+            </div>
+        </div>
+        <div class="main6" id="Contact">
+            <h1>Contact Me</h1>
+            <div class="main7">
+                <div class="contact">
+                    <div class="email">
+                        <input type="text" alt placeholder="Enter Your Name"
+                            required>
+                    </div> <div class="email">
+                        <input type="text" alt placeholder="Enter Your Email"
+                            required>
+                    </div>
+                    <div class="email">
+                        <input type="text" alt placeholder="Enter Your Subject"
+                            required>
+                    </div>
+                    <div class="Description">
+                        <textarea id="message" name="message" rows="4"
+                            required></textarea>
+                    </div>
+                    <button>Submit</button>
+                </div>
+            </div>
+        </div>
+        <script src="03.js"></script>
+    </body>
+</html>
+
+
+
